@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.logging;
 class Dec2Hex
 {
 
@@ -18,7 +17,7 @@ class Dec2Hex
               int rem, num;
               num = Arg1;
               String hexadecimal="";
-              logger.log("Converting the Decimal Value " + num + " to Hex...");
+              System.out.println("Converting the Decimal Value " + num + " to Hex...");
 
               while(num != 0)
               {
@@ -27,18 +26,18 @@ class Dec2Hex
                   num= num/16;
               }
             
-              logger.log("Hexadecimal representation is: " + hexadecimal);
+              System.out.println("Hexadecimal representation is: " + hexadecimal);
           }
 
         else
         {
-            logger.log("Please input something into the field and don't leave it empty");
+            System.out.println("Please input something into the field and don't leave it empty");
         }
 
         }
         catch (NumberFormatException e)
         {
-            logger.log("You tried inputting a non int into a converter this error occured: " + e);
+            System.out.println("You tried inputting a non int into a converter this error occured: " + e);
         }
     }
 }
