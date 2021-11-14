@@ -31,13 +31,13 @@ class Dec2Hex
 
         else
         {
-            System.out.println("Please input something into the field and don't leave it empty");
+            System.out.println("Please input something into the field and don't leave it empty.");
         }
 
         }
         catch (NumberFormatException e)
         {
-            System.out.println("You tried inputting a non int into a converter this error occured: " + e);
+            System.out.println("You tried entering a non-integer into the converter. please enter a valid integer. " + e);
         }
     }
 }
