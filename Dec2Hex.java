@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.logging.Logger;
 class Dec2Hex
 {
 
@@ -17,7 +18,7 @@ class Dec2Hex
               int rem, num;
               num = Arg1;
               String hexadecimal="";
-              System.out.println("Converting the Decimal Value " + num + " to Hex...");
+              logger.log("Converting the Decimal Value " + num + " to Hex...");
 
               while(num != 0)
               {
