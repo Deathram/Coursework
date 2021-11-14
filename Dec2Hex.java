@@ -31,7 +31,7 @@ class Dec2Hex
 
         else
         {
-            System.out.println("Please input something into the field and don't leave it empty");
+            System.out.println("Please input something into the field and don't leave it empty" + e);
         }
 
         }
