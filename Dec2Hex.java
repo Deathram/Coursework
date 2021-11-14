@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.logging.Logger;
+import java.util.logging;
 class Dec2Hex
 {
 
