@@ -26,18 +26,18 @@ class Dec2Hex
                   num= num/16;
               }
             
-              System.out.println("Hexadecimal representation is: " + hexadecimal);
+              logger.log("Hexadecimal representation is: " + hexadecimal);
           }
 
         else
         {
-            System.out.println("Please input something into the field and don't leave it empty");
+            logger.log("Please input something into the field and don't leave it empty");
         }
 
         }
         catch (NumberFormatException e)
         {
-            System.out.println("You tried inputting a non int into a converter this error occured: " + e);
+            logger.log("You tried inputting a non int into a converter this error occured: " + e);
         }
     }
 }
